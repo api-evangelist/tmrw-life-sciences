@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.tmrwlifesciences.com/security/
+url: https://www.tmrwlifesciences.com/security/
+certifications:
+- SOC 2 Type 2
+- ISO 27001:2013
+- ISO 27018:2019
+notes: >-
+  TMRW Life Sciences publishes its security and compliance posture on its
+  Security & Trust page. Certifications cover the AICPA SOC 2 Type 2 (Security,
+  Availability, and Confidentiality Trust Services Criteria), ISO 27001:2013
+  (Information Security Management System), and ISO 27018:2019 (protection of
+  PII in public clouds). Platform runs on Google Cloud Platform. Data protected
+  with TLS 1.2+ in transit and AES-256 at rest. Controls named include MFA,
+  intrusion detection, file integrity management, endpoint protection,
+  vulnerability scanning, and third-party penetration testing. No public
+  vulnerability disclosure / bug bounty program or dedicated security contact
+  is published.
+evidence:
+- source: https://www.tmrwlifesciences.com/security/
+  keywords: [soc 2 type 2, iso 27001, iso 27018, trust, security]

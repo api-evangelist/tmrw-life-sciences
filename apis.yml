@@ -1,8 +1,29 @@
 aid: tmrw-life-sciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tmrw-life-sciences.png
 name: TMRW Life Sciences *
-description: 'TMRW Life Sciences * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  TMRW Life Sciences is a medical technology company that builds the world's
+  first and only FDA-cleared automated platform for the safe management and
+  storage of frozen eggs and embryos used in IVF and fertility treatment. Its
+  cryo-storage hardware combines robotic specimen handling with digital
+  tracking, chain-of-custody monitoring, and real-time visibility for fertility
+  clinics and their patients, replacing manual, paper-based handling of
+  irreplaceable reproductive tissue. Deployed at clinic networks including CCRM
+  Fertility, Pinnacle Fertility, RFC, and IVIRMA North America. TMRW is a
+  private company backed by GV (Google Ventures). It publishes a Security &
+  Trust program (SOC 2 Type 2, ISO 27001, ISO 27018) but does not expose a
+  public developer portal, API, or specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/tmrw-life-sciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Fertility
+- IVF
+- Healthcare
+- Medical Devices
+- Cryostorage
+- Biotech
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tmrw-life-sciences-domain-security.yml
+- type: TrustCenter
+  url: security/tmrw-life-sciences-trust-center.yml
+- type: Compliance
+  url: https://www.tmrwlifesciences.com/security/
 - type: Website
-  url: https://tmrw.org
+  url: https://www.tmrwlifesciences.com/
+- type: Support
+  url: https://www.tmrwlifesciences.com/contact-us/
+- type: Blog
+  url: https://www.tmrwlifesciences.com/newsroom/
+- type: PrivacyPolicy
+  url: https://www.tmrwlifesciences.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.tmrwlifesciences.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

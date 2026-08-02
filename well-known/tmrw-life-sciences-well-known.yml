@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: probed
+host: https://www.tmrwlifesciences.com
+source: live probe of /.well-known/* + /llms.txt
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+notes: >-
+  No .well-known discovery surface, agent-plugin manifest, or llms.txt is
+  published. TMRW Life Sciences is an FDA-cleared automated fertility specimen
+  storage platform (hardware + clinic software) with no public developer/API
+  surface, so no OAuth/OIDC discovery or API catalog documents are expected.
